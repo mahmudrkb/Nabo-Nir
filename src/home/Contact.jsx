@@ -48,7 +48,7 @@ const Contact = () => {
                       className=" bg-white  rounded-md shrink-0 hover:shadow-2xl text-center  p-3 "
                     >
                       <FaPhone className="text-4xl blue mx-auto mb-3 " />
-                      <p>01971347880</p>
+                      <p>+8801971347880</p>
                     </div>
                   </a>
 
@@ -87,7 +87,7 @@ const Contact = () => {
                       className=" bg-white   rounded-md shrink-0 hover:shadow-2xl text-center  p-3 "
                     >
                       <MdLocationPin className="text-4xl mt-1  blue mx-auto  " />{" "}
-                      <p className="">Dhaka, Bangladesh</p>
+                      <p className="">Mirpur-2, Dhaka, Bangladesh</p>
                     </div>
                   </a>
                 </div>
