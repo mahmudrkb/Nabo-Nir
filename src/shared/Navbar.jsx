@@ -6,7 +6,7 @@ const Navbar = () => {
   const NavbarLink = (
     <>
       <li>
-        <Link>Home</Link>
+        <Link to={"/"}>Home</Link>
       </li>
       <li>
         <Link>About Us</Link>
@@ -17,17 +17,15 @@ const Navbar = () => {
       </li>
 
       <li>
-        <Link>Contact Us</Link>
+        <Link to={"/contact"}>Contact Us</Link>
       </li>
     </>
   );
 
   return (
     <div
-      className="  bg-center "
-      style={{
-        backgroundImage: `url(${img1})`,
-      }}
+      className="  bg-center  bg-[#bae0ff]  "
+     
     >
       <div className="navbar  container mx-auto px-3">
         <div className="navbar-start">
