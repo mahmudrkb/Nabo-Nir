@@ -9,9 +9,9 @@ import "swiper/css/effect-cards";
 // import required modules
 import { EffectCards } from "swiper/modules";
 
-import img1 from "../assets/img/received_379031627684480.jpeg"
-import img2 from "../assets/img/received_400890128833797.jpeg"
-import img3 from "../assets/img/Screenshot_20250202_172822_Maps.jpg"
+import img1 from "../assets/img/received_379031627684480.jpeg";
+import img2 from "../assets/img/received_400890128833797.jpeg";
+import img3 from "../assets/img/Screenshot_20250202_172822_Maps.jpg";
 
 const ComProjects = () => {
   return (
@@ -32,12 +32,8 @@ const ComProjects = () => {
               modules={[EffectCards]}
               className="mySwiper"
             >
-                 <SwiperSlide>
-                
-                <img className=" h-full w-full"
-                  src={img3}
-                  alt=""
-                />
+              <SwiperSlide>
+                <img className=" h-full w-full" src={img3} alt="" />
               </SwiperSlide>
               <SwiperSlide>
                 <img src={img1} alt="" />
@@ -45,24 +41,43 @@ const ComProjects = () => {
               <SwiperSlide>
                 <img src={img2} alt="" />
               </SwiperSlide>
-        
-             
             </Swiper>
           </figure>
-          <div className="card-body w-1/2">
+          <div className="card-body lg:w-1/2">
             <h2 className="card-title lg:text-2xl font-bold">Amtola Nabanir</h2>
             <address> 60 Feet, Amtola Bazar, Mirpur-2, Dhaka </address>
-            
-            <p>Nabo Nir is a state-of-the-art residential building located in the heart of Mirpur. Designed with modern architecture and premium amenities, Nabo Nir offers a luxurious lifestyle for families and professionals alike. With spacious apartments, 24/7 security, and easy access to schools, shopping centers, and public transportation, Nabo Nir is the perfect place to call home.</p>
+
+            <p>
+              Nabo Nir is a state-of-the-art residential building located in the
+              heart of Mirpur. Designed with modern architecture and premium
+              amenities, Nabo Nir offers a luxurious lifestyle for families and
+              professionals alike. With spacious apartments, 24/7 security, and
+              easy access to schools, shopping centers, and public
+              transportation, Nabo Nir is the perfect place to call home.
+            </p>
             <h4 className="font-bold">Amenities:</h4>
             <ul className="list-disc ml-4 ">
-                <li> 24/7 Security</li>
-                <li> Rooftop Garden</li>
-                <li> Underground Parking</li>
-                <li> High-Speed Elevators</li>
+              <li> 24/7 Security</li>
+              <li> CCTV</li>
+              <li> Rooftop Garden</li>
+              <li> Underground Parking</li>
+              <li> High-Speed Elevators</li>
+              <li> Others</li>
             </ul>
             <div className="card-actions justify-end">
               {/* <button className="btn btn-primary">Listen</button> */}
+              {/* <iframe
+                src="https://maps.google.com/maps?q=p8CsRcmugXLsbdYY9&output=embed"
+                width="600"
+                height=""
+                
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe> */}
+              {/* <iframe
+                src="https://maps.app.goo.gl/p8CsRcmugXLsbdYY9"
+                frameborder="1"
+              ></iframe> */}
             </div>
           </div>
         </div>
